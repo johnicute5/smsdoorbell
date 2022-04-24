@@ -7,7 +7,7 @@ $HostUser = "id18818444_smsdb";
 $HostPass = "Johnicute@2000";
 //Define your database name here.
 $DatabaseName = "id18818444_smsdoorbell";
-
+echo "this is me"
 $con = mysqli_connect($HostName,$HostUser,$HostPass,$DatabaseName);
 if($con){
 	echo "DATA BASE CONNECTED \n";
